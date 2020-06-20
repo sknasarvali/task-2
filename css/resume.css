@@ -1,0 +1,89 @@
+
+div{
+	align-items: center;
+	width:30%;
+	height:auto;
+	height: 60%;
+	border-radius: 10%;
+	box-shadow: 4px 4px 5px 5px;
+	
+}
+
+div:hover{
+	box-shadow: 4px 4px 5px 5px #A2B5E2;
+}
+
+img{
+	width:30%;
+	margin-top: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-transform: uppercase;
+}
+
+.card:hover{
+	box-shadow: 4px 4px 5px -5px #0CED49;
+}
+
+.section{
+	display: flex;
+	justify-content: space-around;
+	margin-top:20px;
+	
+}
+
+.div2{
+	width: 60%;
+	border:1px solid #141412;
+	border-radius: 3%;
+	box-shadow: 4px 4px 5px 5px;
+	padding-bottom: 5%;		
+	padding-left:5%;
+}
+
+
+@media screen and (min-width: 910px) and (max-width: 1000px){
+	section{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+	div{
+		width: 50%;
+		justify-content: center;
+		position:absolute;
+		
+	}
+
+	.div2{
+		width:78%;
+		margin-top: 400px;
+		position: absolute;
+		height:900px;
+		
+	}
+}
+
+@media screen and (min-width: 100px) and (max-width: 479px){
+	div{
+		width: 50%;
+		justify-content: center;
+		position: absolute;
+	}
+
+	.div2{
+		width:100%;
+		margin-top: 400px;
+		position: absolute;
+		height:900px;
+		
+		overflow:scroll;
+	}
+}
